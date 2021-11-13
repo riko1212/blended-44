@@ -75,7 +75,7 @@ ul {
   max-width: 829px;
   margin: 0 auto 50px;
 }
-.hero-btn {
+.btn {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.25;
@@ -90,4 +90,55 @@ ul {
   justify-content: center;
   align-items: center;
   margin: 0 auto;
+}
+
+/*---------------------ourwork---------------------------*/
+
+.ourwork {
+  padding-top: 110px;
+  padding-bottom: 105px;
+}
+
+.ourwork-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.47;
+  text-align: center;
+  color: #323232;
+  max-width: 739px;
+  margin: 0 auto;
+  margin-bottom: 50px;
+}
+
+.ourwork-text {
+  font-size: 16px;
+  line-height: 1.56;
+  text-align: center;
+  color: #999999;
+  max-width: 730px;
+  margin: 0 auto;
+  margin-bottom: 70px;
+}
+.ourwork-list {
+  display: flex;
+  margin-right: -27px;
+  margin-bottom: 50px;
+}
+
+.ourwork-item {
+  flex-basis: calc(100% / 3 - 27px);
+  margin-right: 27px;
+}
+.ourwork-list-title {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 1.22;
+  color: #000000;
+  margin-bottom: 12px;
+}
+
+.ourwork-list-text {
+  font-size: 14px;
+  line-height: 22px;
+  color: #999999;
 }
