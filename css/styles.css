@@ -303,10 +303,27 @@ ul {
 }
 
 .projects-list {
-    display: flex;
+    /* display: flex; */
     margin-bottom: 50px;
 }
 
-.projects-item:not(:last-child) {
+/* .projects-item:not(:last-child) {
     margin-right: 30px;
+} */
+
+.slick-next:before {
+    content: "";
+    width: 40px;
+    height: 40px;
+    background-image: url(../images/img1.png);
+    background-size: cover;
+    display: block;
+}
+
+.slick-dots li button:before {
+    content: "😂";
+    font-size: 16px;
+}
+.slick-dots li.slick-active button:before {
+    content: "🤪";
 }
